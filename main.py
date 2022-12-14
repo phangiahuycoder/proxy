@@ -4,6 +4,7 @@ import requests
 import re
 import time
 import threading
+from proxy_checker import ProxyChecker
 from sys import stdout
 
 lock = threading.Lock()
